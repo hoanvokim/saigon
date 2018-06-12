@@ -1,0 +1,5 @@
+
+Xphp:S105"EReplace all tab characters in this file by sequences of white-spaces.8У‰ё›ї,
+a	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(ҐСХz8У‰ё›ї,
+2	php:S2010"Replace "OR" with "||".(ҐСХz8У‰ё›ї,
+:php:S125"Remove this commented out code.(ЦЏ¬с8У‰ё›ї,

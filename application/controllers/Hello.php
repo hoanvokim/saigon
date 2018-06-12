@@ -1,4 +1,5 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Created by IntelliJ IDEA.
  * User: hoanvo
@@ -9,13 +10,13 @@
 class Hello extends CI_Controller
 {
 
-	public function __construct()
-	{
-		parent::__construct();
-	}
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	public function index()
-	{
-		$this->load->view('hello');
-	}
+    public function index()
+    {
+        $this->load->view('hello');
+    }
 }

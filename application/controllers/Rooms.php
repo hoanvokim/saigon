@@ -6,10 +6,21 @@
  * Time: 9:48 PM
  */
 
-class Rooms extends CI_Controller {
+class Rooms extends CI_Controller
+{
 
-	public function index()
-	{
-		$this->load->view('rooms');
-	}
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    public function index()
+    {
+        $this->load->view('rooms');
+    }
+
+    public function room($id)
+    {
+        $this->load->view('room');
+    }
 }
