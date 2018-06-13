@@ -32,7 +32,7 @@ class Contact extends CI_Controller
             $sender_name = $this->input->post('sender_name');
 
             $sender_subject = $this->input->post('sender_subject');
-            $sender_content = $this->input->post('sender_content') . "\n Email : " . $sender_mail;;
+            $sender_content = $this->input->post('sender_content') . "\n Email : " . $sender_mail;
 
             $this->email->from($sender_mail, $sender_name);
 
