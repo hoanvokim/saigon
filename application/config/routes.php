@@ -59,4 +59,5 @@ $route['facilities/facility/(:any)'] = 'facilities/facility/$1';
 $route['belocal'] = 'belocal';
 $route['belocal/post/(:any)'] = 'belocal/post/$1';
 $route['contact'] = 'contact';
+$route['contact/send'] = 'contact/send';
 $route['translate_uri_dashes'] = FALSE;
