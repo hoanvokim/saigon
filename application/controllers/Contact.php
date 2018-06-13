@@ -22,30 +22,30 @@ class Contact extends CI_Controller
 
         if ($this->input->post('btn_send')) {
 
-//            $contact['protocol'] = $this->config->item('protocol');
-//            $contact['charset'] = $this->config->item('charset');
-//            $contact['mailtype'] = $this->config->item('mailtype');
-//            $contact['wordwrap'] = $this->config->item('wordwrap');
-//            $this->email->initialize($contact);
-//
-//            $sender_mail = $this->input->post('sender_email');
-//            $sender_name = $this->input->post('sender_name');
-//
-//            $sender_subject = $this->input->post('sender_subject');
-//            $sender_content = $this->input->post('sender_content') . "\n Email : " . $sender_mail;;
-//
-//            $this->email->from($sender_mail, $sender_name);
-//
-//            $this->email->to($this->config->item('contact_email'));
-//
-//            $this->email->subject($sender_subject);
-//            $this->email->message($sender_content);
-//            if (!$this->email->send()) {
-//                $this->load->view('error');
-//            }
-//            else {
-//                $this->load->view('success');
-//            }
+            $contact['protocol'] = $this->config->item('protocol');
+            $contact['charset'] = $this->config->item('charset');
+            $contact['mailtype'] = $this->config->item('mailtype');
+            $contact['wordwrap'] = $this->config->item('wordwrap');
+            $this->email->initialize($contact);
+
+            $sender_mail = $this->input->post('sender_email');
+            $sender_name = $this->input->post('sender_name');
+
+            $sender_subject = $this->input->post('sender_subject');
+            $sender_content = $this->input->post('sender_content') . "\n Email : " . $sender_mail;;
+
+            $this->email->from($sender_mail, $sender_name);
+
+            $this->email->to($this->config->item('contact_email'));
+
+            $this->email->subject($sender_subject);
+            $this->email->message($sender_content);
+            if (!$this->email->send()) {
+                $this->load->view('error');
+            }
+            else {
+                $this->load->view('success');
+            }
             $this->load->view('success');
         }
         $this->load->view('contact', $data);
