@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-12 col-md-offset-12">
+			<div class="col-md-12">
 
 				<div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
 					<h2>

@@ -1,4 +1,4 @@
 
-R	php:S1185"6Remove this method "__construct" to simply inherit it.(ƒöÙƒ8â¿å›¿,
-2	php:S2010"Replace "OR" with "||".(¥ÑÕz8øã›¿,
 a	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(¥ÑÕz8øã›¿,
+2	php:S2010"Replace "OR" with "||".(¥ÑÕz8øã›¿,
+R	php:S1185"6Remove this method "__construct" to simply inherit it.(ƒöÙƒ8â¿å›¿,
