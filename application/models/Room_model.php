@@ -13,14 +13,10 @@ class Room_model extends CI_Model
     {
         $this->db->select('
             room.slug,
-            blog.thumbnail,
-            blog.title_en,
-            blog.date_created,
-            blog.description_en,
-            category.name_en as category_name');
-        $this->db->from('blog');
-        $this->db->join('category', 'category.id = blog.fk_category', 'inner');
-        $this->db->order_by('blog.id', 'DESC');
+            room.room_name,
+            room.des,
+            room.img');
+        $this->db->from('room');
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
             return $query->result();
@@ -33,16 +29,12 @@ class Room_model extends CI_Model
     public function show_by_slug($slug)
     {
         $this->db->select('
-            blog.slug,
-            blog.thumbnail,
-            blog.title_en,
-            blog.content_en,
-            blog.date_created,
-            blog.description_en,
-            category.name_en as category_name');
-        $this->db->from('blog');
-        $this->db->join('category', 'category.id = blog.fk_category', 'inner');
-        $this->db->where('blog.slug =', $slug);
+            room.slug,
+            room.room_name,
+            room.des,
+            room.img');
+        $this->db->from('room');
+        $this->db->where('room.slug =', $slug);
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $news) {
@@ -54,4 +46,22 @@ class Room_model extends CI_Model
         }
     }
 
+    public function show_recent_rooms($slug)
+    {
+        $this->db->select('
+            room.slug,
+            room.room_name,
+            room.img');
+        $this->db->from('room');
+        $this->db->where('room.slug !=', $slug);
+        $this->db->order_by('rand()');
+        $this->db->limit(3);
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        }
+        else {
+            return false;
+        }
+    }
 }
