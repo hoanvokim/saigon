@@ -1,11 +1,13 @@
 <?php
+
 /**
  * Created by IntelliJ IDEA.
  * User: hoanvo
  * Date: 5/19/18
  * Time: 9:49 PM
  */
-class Belocal extends CI_Controller {
+class Belocal extends CI_Controller
+{
 
     public function __construct()
     {
@@ -14,10 +16,13 @@ class Belocal extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('belocal');
+        $data['active_tab'] = 'belocal';
+        $this->load->view('belocal', $data);
     }
+
     public function post($id)
     {
-        $this->load->view('post');
+        $data['active_tab'] = 'belocal';
+        $this->load->view('post', $data);
     }
 }

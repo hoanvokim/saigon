@@ -7,7 +7,7 @@
             <div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s"
                  data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
-                <h2 class="intro-heading heading-frame">Xin chào</h2>
+                <h2 class="intro-heading heading-frame">Room</h2>
                 <p class="intro-text mb-60 text-left">
                     We are a family of three who were born and raised in Saigon. After years of working, we finally
                     decided to quit our jobs, retire early and follow our hearts. Travel has changed us. The further

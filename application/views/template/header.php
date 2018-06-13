@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 	<!--[if IE]>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<meta name="description" content="">
 
@@ -55,11 +55,12 @@
 			<h3>Navigation</h3>
 
 			<ul class="header-nav__list">
-				<li class="current"><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Xin Chào">"Xin Chào"</a></li>
-				<li><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Your home's style">Your home's style</a></li>
-				<li><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Full facilities">Full facilities</a></li>
-				<li><a class="smoothscroll" href="<?php echo base_url() . 'belocal'; ?>" title="Be local">Be local</a></li>
-				<li><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="contact">Get in touch</a></li>
+                <li <?php if($active_tab=='home') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url(); ?>" title="Homepage">Homepage</a></li>
+                <li <?php if($active_tab=='hello') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Xin Chào">"Xin Chào"</a></li>
+				<li <?php if($active_tab=='rooms') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Your home's style">Your home's style</a></li>
+				<li <?php if($active_tab=='facilities') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Full facilities">Full facilities</a></li>
+				<li <?php if($active_tab=='belocal') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'belocal'; ?>" title="Be local">Be local</a></li>
+				<li <?php if($active_tab=='contact') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="contact">Get in touch</a></li>
 			</ul>
 
 			<ul class="header-nav__social">

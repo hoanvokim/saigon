@@ -16,11 +16,13 @@ class Rooms extends CI_Controller
 
     public function index()
     {
-        $this->load->view('rooms');
+        $data['active_tab'] = 'rooms';
+        $this->load->view('rooms', $data);
     }
 
     public function room($id)
     {
-        $this->load->view('room');
+        $data['active_tab'] = 'rooms';
+        $this->load->view('room', $data);
     }
 }

@@ -78,7 +78,7 @@
 	<div class="container">
 
 		<div class="row heading">
-			<div class="col-md-6 col-md-offset-3 text-center">
+			<div class="col-md-12 col-md-offset-12 text-center">
 				<h2 class="text-center bottom-line">Contact Us</h2>
 			</div>
 		</div>

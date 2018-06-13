@@ -3,13 +3,13 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-md-12 col-md-offset-12">
 
 				<div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
 					<h2>
 						<a href="#home" class="color-white"><img
 								src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png"
-								alt="Homepage"></a>
+								alt="Homepage" style="width: 300px;"></a>
 					</h2>
 				</div>
 
@@ -20,7 +20,7 @@
 				</div> <!-- end socials -->
 
 				<span class="copyright text-center">
-              ©2017 iamsaigon  |  Development by <a href="http://beu.photography/">Hoan vo</a>
+              ©2018 iamsaigon  |  Development by <a href="http://beu.photography/">Hoan vo</a>
             </span>
 
 			</div>

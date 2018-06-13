@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s"
+			<div class="col-sm-12 col-sm-offset-12 text-center wow slideInUp" data-wow-duration="1.2s"
 				 data-wow-delay="0s"
 				 style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
 				<h2 class="intro-heading heading-frame">Xin chào</h2>
@@ -31,7 +31,7 @@
 
 				</p>
 
-				<img src="img/iamsaigon-white-logo.png" alt="" width="400px">
+				<img src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png" alt="" width="400px">
 			</div>
 
 		</div>
@@ -46,7 +46,7 @@
 		<div class="item">
 			<div class="container testimonial">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-12 col-md-offset-12">
 						<i class="fa fa-quote-left"></i>
 						<p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome
 							template. Design is so good and neat, every detail has been taken care these team are realy
@@ -61,7 +61,7 @@
 		<div class="item">
 			<div class="container testimonial">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-12 col-md-offset-2">
 						<i class="fa fa-quote-left"></i>
 						<p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome
 							template. Design is so good and neat, every detail has been taken care these team are realy
@@ -76,7 +76,7 @@
 		<div class="item">
 			<div class="container testimonial">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-12 col-md-offset-2">
 						<i class="fa fa-quote-left"></i>
 						<p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome
 							template. Design is so good and neat, every detail has been taken care these team are realy

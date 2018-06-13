@@ -14,11 +14,13 @@ class Facilities extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('facilities');
+        $data['active_tab'] = 'facilities';
+        $this->load->view('facilities', $data);
     }
 
     public function facility($id)
     {
-        $this->load->view('facility');
+        $data['active_tab'] = 'facilities';
+        $this->load->view('facility', $data);
     }
 }

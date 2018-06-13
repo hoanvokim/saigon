@@ -1,2 +1,4 @@
 
-P	php:S1185"6Remove this method "__construct" to simply inherit it.(ƒöÙƒ8á±“—¿,
+R	php:S1185
+"6Remove this method "__construct" to simply inherit it.(ƒöÙƒ8á±“—¿,
+l	php:S1192"KDefine a constant instead of duplicating this literal "facilities" 3 times.(’âä¬úÿÿÿÿ8ƒØõ¼¿,

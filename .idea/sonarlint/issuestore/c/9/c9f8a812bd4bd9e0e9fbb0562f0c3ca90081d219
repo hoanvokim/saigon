@@ -1,3 +1,3 @@
 
-)	php:S2010"Replace "OR" with "||".(由掮
-X	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(由掮
++	php:S2010"Replace "OR" with "||".(由掮
+Z	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(由掮

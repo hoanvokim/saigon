@@ -17,6 +17,7 @@ class Hello extends CI_Controller
 
     public function index()
     {
-        $this->load->view('hello');
+        $data['active_tab'] = 'hello';
+        $this->load->view('hello', $data);
     }
 }

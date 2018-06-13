@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     margin-top: 0;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     letter-spacing: 0.05em;
     font-weight: 700;
 }
@@ -3962,7 +3962,7 @@ label {
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {
-    padding: 120px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -4303,7 +4303,7 @@ p.footer-address {
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
     height: 100%;
-    width: 280px;
+    width: 380px;
     position: fixed;
     right: 0;
     top: 0;
@@ -4354,7 +4354,6 @@ p.footer-address {
 
 .header-nav__list {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
     list-style: none;
