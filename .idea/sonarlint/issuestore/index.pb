@@ -56,3 +56,13 @@ A
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Q
+!application/models/Room_model.php,4/5/451ab78010cb83379f49e9ebc0a7ab4b832f7af0
+P
+ application/config/constants.php,7/c/7c1c6a9615beeedde9b57a3f18c114c650f497f4
+O
+application/config/database.php,a/7/a73ba0721ceacc13a035eaf7fc64193289c85b76
+W
+'application/models/Facilities_model.php,d/e/de88eec36b3ca3d597e86c8586e1f6e141420c72
+Q
+!application/models/News_model.php,a/4/a40d79ed7f02511a772daa057aba43fd5f720402

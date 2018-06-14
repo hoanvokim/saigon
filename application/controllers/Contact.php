@@ -46,8 +46,9 @@ class Contact extends CI_Controller
             else {
                 $this->load->view('success');
             }
-            $this->load->view('success');
         }
-        $this->load->view('contact', $data);
+        else {
+            $this->load->view('contact', $data);
+        }
     }
 }

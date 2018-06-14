@@ -1,11 +1,11 @@
 
-4php:S125€"Remove this commented out code.(Í¸ÿ
-8php:S125d"Remove this commented out code.(™©…åıÿÿÿÿ
-8php:S125J"Remove this commented out code.(Í• ìüÿÿÿÿ
-+	php:S2010"Replace "OR" with "||".(¥ÑÕz
-3php:S125'"Remove this commented out code.(¯¼Ã‹
-8php:S125r"Remove this commented out code.(Ú·«°ûÿÿÿÿ
+1php:S125"Remove this commented out code.(Í¸ÿ
+6php:S125"Remove this commented out code.(ÿàÄÉıÿÿÿÿ
+X	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(¥ÑÕz
+6php:S125"Remove this commented out code.(Ú·«°ûÿÿÿÿ
+)	php:S2010"Replace "OR" with "||".(¥ÑÕz
 Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
-8php:S1256"Remove this commented out code.(ÿàÄÉıÿÿÿÿ
-3php:S125Z"Remove this commented out code.(µ¾îÁ
-Z	php:S3699"FRemove this use of the output from exit; exit doesn't return anything.(¥ÑÕz
+6php:S125"Remove this commented out code.(Í• ìüÿÿÿÿ
+1php:S125"Remove this commented out code.(¯¼Ã‹
+1php:S125"Remove this commented out code.(µ¾îÁ
+6php:S125"Remove this commented out code.(™©…åıÿÿÿÿ
