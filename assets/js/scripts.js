@@ -442,12 +442,18 @@
 
             // Owl Hero Slider
             $("#owl-slider-one-img").owlCarousel({
-
-                transitionStyle: "fadeUp",
-                autoHeight: true,
                 navigation: true,
                 slideSpeed: 300,
+                pagination: true,
+                paginationSpeed: 400,
                 singleItem: true,
+                autoPlay: 4000,
+                stopOnHover: true,
+                autoHeight:true,
+                mouseDrag: true,
+                touchDrag: true,
+                pullDrag: true,
+                freeDrag: false,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });

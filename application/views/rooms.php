@@ -5,7 +5,7 @@
             <div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s"
                  data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
-                <h2 class="intro-heading-invert heading-frame-invert">Your home's style!</h2>
+                <h2 class="intro-heading-invert heading-frame-invert">Your home's!</h2>
 
             </div>
         </div>

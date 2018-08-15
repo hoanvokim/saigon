@@ -7,7 +7,7 @@
                 <h1>  <?php echo $room->room_name; ?></h1>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="<?php echo base_url() . 'rooms' ?>">Your home's style </a>
+                        <a href="<?php echo base_url() . 'rooms' ?>">Your home's </a>
                     </li>
                     <li class="active">
                         <?php echo $room->room_name; ?>
@@ -48,18 +48,29 @@
                     <h2><?php echo $room->room_name; ?></h2>
                     <?php echo $room->des; ?>
                     <br/>
-                    <br/>
-                    <span>What' inside:</span>
+                    <strong><span>What' inside:</span></strong>
                     <div class="tags">
-                        <a href="#">AC</a>
-                        <a href="#">FAN</a>
-                        <a href="#">Mini bar</a>
-                        <a href="#">Tea maker</a>
-                        <a href="#">Shampoo</a>
+                        <div style="padding-bottom: 35px;">
+                            <a href="#">AC</a>
+                            <a href="#">Wifi</a>
+                            <a href="#">En-suite bathroom</a>
+                            <a href="#">Fan</a>
+                            <a href="#">Mini bar</a>
+                            <a href="#">Kettle</a>
+                            <a href="#">Tea maker</a>
+                        </div>
+                        <div>
+                            <a href="#">Safety box</a>
+                            <a href="#">Hair dryer</a>
+                            <a href="#">Shampoo</a>
+                            <a href="#">Body gel</a>
+                            <a href="#">Hand wash</a>
+                            <a href="#">Towels</a>
+                        </div>
                     </div>
                     <br/>
                     <br/>
-                    <a href="<?php echo base_url() . 'contact' ?>" class="btn btn-sm">Book NOW!!!</a>
+                    <a href="<?php echo base_url() . 'contact' ?>" class="btn btn-md"><span style="font-size: 17px;">Book NOW!!!</span></a>
                     <div class="entry-share clearfix">
                         <h6>Share:</h6>
                         <div class="socials">
@@ -76,7 +87,7 @@
 
 
 <!-- Related Projects -->
-<section class="related-projects pb-90">
+<section class="related-projects pb-30">
     <div class="container">
         <h4 class="heading-inline">Our Suggestions</h4>
         <div class="row mt-20">
