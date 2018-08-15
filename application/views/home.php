@@ -15,7 +15,7 @@
                     data-title="The Art of Design"
                 >
                     <!-- MAIN IMAGE -->
-                    <img src="<?php echo base_url() ?>assets/img/video-thumb.jpg"
+                    <img src=""
                          alt=""
                          data-bgrepeat="no-repeat"
                          data-bgfit="cover"
@@ -71,57 +71,4 @@
         </div>
     </div>
 </section>
-
-
-<!-- Contact -->
-<section class="section-wrap contact" id="contact">
-    <div class="container">
-
-        <div class="row heading">
-            <div class="col-md-12 col-md-offset-12 text-center">
-                <h2 class="text-center bottom-line">Contact Us</h2>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="icon icon-Pointer"></i>
-                    </div>
-                    <h6>Address</h6>
-                    <p>42/59 Hoang Hoa Tham, Ward 7, <br/> Binh Thanh District, Ho Chi Minh City</p>
-                </div> <!-- end address -->
-
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="icon icon-Mail"></i>
-                    </div>
-                    <h6>E-mail</h6>
-                    <a href="mailto:hello@iamsaigon.vn">hello@iamsaigon.vn</a>
-                </div> <!-- end email -->
-
-            </div>
-
-            <div class="col-md-8">
-                <form id="contact-form" action="<?php echo base_url() . 'contact'; ?>" method="post">
-
-                    <div class="row contact-row">
-                        <div class="col-md-6 contact-name">
-                            <input name="sender_name" id="name" type="text" placeholder="Name*">
-                        </div>
-                        <div class="col-md-6 contact-email">
-                            <input name="sender_email" id="mail" type="email" placeholder="E-mail*">
-                        </div>
-                    </div>
-
-                    <input name="sender_subject" id="subject" type="text" placeholder="Subject">
-                    <textarea name="sender_content" id="comment" placeholder="Message"></textarea>
-                    <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send" name="btn_send">
-                </form>
-            </div> <!-- end col -->
-        </div>
-    </div>
-</section> <!-- end contact -->
 <?php $this->load->view('template/footer') ?>

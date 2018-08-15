@@ -4310,7 +4310,8 @@ p.footer-address {
     background: #0C0C0C;
     color: rgba(255, 255, 255, 0.25);
     font-family: "montserrat-light", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
     height: 100%;
@@ -4481,7 +4482,7 @@ p.footer-address {
     width: 42px;
     line-height: 42px;
     font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #fff;

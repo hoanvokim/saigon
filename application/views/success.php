@@ -9,7 +9,7 @@
                  style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
                 <h2 class="intro-heading heading-frame">Cám ơn</h2>
                 <p class="intro-text mb-60 text-left">
-                    Thank you for sending us your information.
+                    Thank you for sending us your information. 
                     We will reply you as soon as possible.
 
                 </p>

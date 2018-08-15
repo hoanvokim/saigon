@@ -527,4 +527,3 @@ $config['protocol'] = 'sendmail';
 $config['charset'] = 'utf-8';
 $config['mailtype'] = 'html';
 $config['wordwrap'] = TRUE;
-
