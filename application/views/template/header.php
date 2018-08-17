@@ -10,10 +10,9 @@
 	<meta name="description" content="">
 
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic'
-		  rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-	<!-- Css -->
+    <!-- Css -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/magnific-popup.css"/>
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/font-icons.css"/>
@@ -59,7 +58,7 @@
                 <li <?php if ($active_tab == 'rooms') {
                     echo 'class="current"';
                 } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Your home's style">Your
-                        home's</a></li>
+                        home</a></li>
 				<li <?php if($active_tab=='facilities') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Full facilities">Full facilities</a></li>
 				<li <?php if($active_tab=='belocal') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'belocal'; ?>" title="Be local">Be local</a></li>
 				<li <?php if($active_tab=='contact') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="contact">Get in touch</a></li>

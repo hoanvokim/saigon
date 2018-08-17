@@ -15,7 +15,7 @@
 <section class="mt-lrg-100">
     <div class="container">
         <div class="row">
-            <div class="works-grid titles">
+            <div class="works-grid titles wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
                 <?php
                 if (isset($items) && ($items != 'Empty')) {
                     foreach ($items as $item) {

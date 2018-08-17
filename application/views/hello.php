@@ -1,16 +1,15 @@
 <?php $this->load->view('template/header') ?>
 
-<section class="section-wrap intro style-2" id="intro" style="background-image: url(<?php echo base_url() ?>assets/img/longchim.jpg)">
+<section class="section-wrap intro-low style-2" id="intro">
 	<div class="container">
 		<div class="row">
-            <div class="col-md-3 text-center wow slideInUp" data-wow-duration="1.2s"
-                 data-wow-delay="0s">
-                <img src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png"/>
+            <div class="col-md-6 col-sm-12 text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0s">
+                <img style="padding-top: 0px;"
+                     src="https://images.unsplash.com/photo-1518733057094-95b53143d2a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cea1c1f5cfaee3e93a091eb7c24085ea&auto=format&fit=crop&w=1215&q=80"/>
             </div>
-			<div class="col-sm-12 text-center wow slideInUp" data-wow-duration="1.2s"
-				 data-wow-delay="0s"
-				 style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
-				<h2 class="intro-heading heading-frame">Xin chào</h2>
+            <div class="col-md-6 col-sm-12 text-center wow zoomIn" data-wow-duration="1.2s"
+                 data-wow-delay="0.5s">
+                <h2 class="intro-heading heading-frame-invert">"Xin chào"</h2>
 				<p class="intro-text mb-60 text-left">
 					We are a family of three who were born and raised in Saigon. After years of working, we finally
 					decided to quit our jobs, retire early and follow our hearts. Travel has changed us. The further
@@ -33,8 +32,6 @@
 					<br/><br/>
 
 				</p>
-
-				<img src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png" alt="" width="400px">
 			</div>
 
 		</div>

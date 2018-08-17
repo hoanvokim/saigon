@@ -5,7 +5,7 @@
 
 			<div class="col-md-12">
 
-				<div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
 					<h2>
 						<a href="#home" class="color-white"><img
 								src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png"
@@ -14,12 +14,15 @@
 				</div>
 
 				<div class="socials footer-socials">
-					<a href="https://www.facebook.com/iamsaigon.vn/"><i class="fa fa-facebook"></i></a>
-					<a href="https://www.instagram.com/iamsaigon.vn/"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/iamsaigon.vn/" class="wow zoomIn" data-wow-duration="1s"
+                       data-wow-delay="0.5s"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/iamsaigon.vn/" class="wow zoomIn" data-wow-duration="1s"
+                       data-wow-delay="0.5s"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/iamsaigon.vn/" class="wow zoomIn" data-wow-duration="1s"
+                       data-wow-delay="0.5s"><i class="fa fa-pinterest"></i></a>
 				</div> <!-- end socials -->
 
-				<span class="copyright text-center">
+                <span class="copyright text-center wow zoomIn" data-wow-duration="3s" data-wow-delay="1s">
               ©2018 iamsaigon  |  Development by <a href="http://beu.photography/">Hoan vo</a>
             </span>
 

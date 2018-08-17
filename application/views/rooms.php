@@ -5,7 +5,7 @@
             <div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s"
                  data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
-                <h2 class="intro-heading-invert heading-frame-invert">Your home's!</h2>
+                <h2 class="intro-heading-invert heading-frame-invert">Your home!</h2>
 
             </div>
         </div>
@@ -17,7 +17,7 @@
         <!-- filter -->
         <div class="row">
             <div class="col-md-12">
-                <div class="portfolio-filter">
+                <div class="portfolio-filter wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
                     <a href="#" class="filter active" data-filter="*">All</a>
                     <?php
                     if (isset($items) && ($items != 'Empty')) {
@@ -34,7 +34,7 @@
         </div> <!-- end filter -->
 
         <div class="row">
-            <div class="works-grid titles">
+            <div class="works-grid titles wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
                 <?php
                 if (isset($items) && ($items != 'Empty')) {
                     foreach ($items as $item) {

@@ -2,9 +2,9 @@
 <section class="section-wrap style-2" id="intro">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s"
+            <div class="col-sm-8 col-sm-offset-2 text-center wow zoomInDown" data-wow-duration="1.2s"
                  data-wow-delay="0s"
-                 style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
+                 style="visibility: visible;">
                 <h2 class="intro-heading-invert heading-frame-invert">We chose healthy. We cook with love.</h2>
                 <p>
                     Saigon is a city of food. Lets enjoy the most delicious and healthiest cuisines in the world. Ingredients used in different Vietnamese dishes provide you with variety of nutrients, including protein, vitamins, carbs and minerals.
@@ -21,7 +21,7 @@
 <section class="mt-lrg-100">
     <div class="container">
         <div class="row">
-            <div class="works-grid titles">
+            <div class="works-grid titles wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
                 <?php
                 if (isset($items) && ($items != 'Empty')) {
                     foreach ($items as $item) {
