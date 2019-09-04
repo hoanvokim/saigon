@@ -20,7 +20,7 @@ class Eat extends CI_Controller
     {
         $data['items'] = $this->loaddata->view_all($this->news_model);
         $data['active_tab'] = 'Eat';
-        $this->load->view('Eat', $data);
+        $this->load->view('eat', $data);
     }
 
     public function post($slug)

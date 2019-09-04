@@ -18,6 +18,7 @@ class Activities_board_model extends CI_Model
             activities_board.description,
             activities_board.date_created');
 		$this->db->from('activities_board');
+        $this->db->order_by("id", "desc");
 		$query = $this->db->get();
 		if ($query->num_rows() > 0) {
 			return $query->result();

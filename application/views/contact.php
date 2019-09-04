@@ -10,9 +10,10 @@
 				 style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: slideInUp;">
 				<h2 class="intro-heading heading-frame" style="color: white;">BOOK!</h2>
 				<p style="color: white;">
-					If you are looking for HOME, this is for YOU. #iamsaigon - Saigon Local Home for Expats who
+					If you are looking for HOME, this is for YOU.<br/>
+                    #iamsaigon - Saigon Local Home for Expats who
 					appreciate Saigon local and culture, centrally located
-					which is 5-10 minutes to D1, D2, Phu Nhuan and airport, no flood no traffic.
+					which is 5-10 minutes to D1, D2, Phu Nhuan and airport.
 				</p>
 				<br/>
 				<br/>

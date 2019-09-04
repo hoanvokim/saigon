@@ -7,7 +7,7 @@
 				<h1>  <?php echo $room->room_name; ?></h1>
 				<ol class="breadcrumb">
 					<li>
-						<a href="<?php echo base_url() . 'rooms'; ?>">Your home </a>
+						<a href="<?php echo base_url() . 'stay'; ?>">Your home </a>
 					</li>
 					<li class="active">
 						<?php echo $room->room_name; ?>

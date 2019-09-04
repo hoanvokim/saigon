@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>iamsaigon | Home</title>
+	<title>iamsaigon | Saigon Local Home</title>
 
 	<meta charset="utf-8">
 	<!--[if IE]>
@@ -51,28 +51,26 @@
 		<a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
 		<div class="header-nav__content">
-			<h3>Navigation</h3>
-
+            <a class="smoothscroll" href="<?php echo base_url(); ?>" style="font-size: 10px"><img
+                        src="<?php echo base_url() ?>assets/img/iamsaigon-white-logo.png"
+                        alt="Homepage" style="width: 150px;"></a>
 			<ul class="header-nav__list">
-				<li <?php if ($active_tab == 'home') {
-					echo 'class="current"';
-				} ?> ><a class="smoothscroll" href="<?php echo base_url(); ?>" style="font-size: 10px">Homepage</a></li>
 				<li <?php if ($active_tab == 'hello') {
 					echo 'class="current"';
-				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Chào">"Chào"</a></li>
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Chào">Chào</a></li>
 				<li <?php if ($active_tab == 'rooms') {
 					echo 'class="current"';
-				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Stay">Stay</a></li>
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'stay'; ?>" title="Stay">Stay</a></li>
 				<li <?php if ($active_tab == 'eat') {
 					echo 'class="current"';
 				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'eat'; ?>" title="Eat">Eat</a></li>
 
 				<li <?php if ($active_tab == 'facilities') {
 					echo 'class="current"';
-				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Love">Love</a></li>
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'love'; ?>" title="Love">Love</a></li>
 				<li <?php if ($active_tab == 'contact') {
 					echo 'class="current"';
-				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="Book">Book</a></li>
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'book'; ?>" title="Book">Book</a></li>
 			</ul>
 
 			<ul class="header-nav__social">
