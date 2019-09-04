@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |				'ssl_ca'     - Path to the certificate authority file
 |				'ssl_capath' - Path to a directory containing trusted CA certificates in PEM format
 |				'ssl_cipher' - List of *allowed* ciphers to be used for the encryption, separated by colons (':')
-|				'ssl_verify' - TRUE/FALSE; Whether verify the server certificate or not ('mysqli' only)
+|				'ssl_verify' - TRUE/FALSE; Whether verify the server certificate or not
 |
 |	['compress'] Whether or not to use client compression (MySQL only)
 |	['stricton'] TRUE/FALSE - forces 'Strict Mode' connections
@@ -72,33 +72,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
+
+//
 //$db['default'] = array(
-//    'dsn'	=> '',
-//    'hostname' => '112.213.89.162',
-//    'username' => 'beuphoto_hoanvo',
-//    'password' => 'vokimhoan',
-//    'database' => 'beuphoto_beu',
-//    'dbdriver' => 'mysqli',
-//    'dbprefix' => '',
-//    'pconnect' => FALSE,
-//    'db_debug' => (ENVIRONMENT !== 'production'),
-//    'cache_on' => FALSE,
-//    'cachedir' => '',
-//    'char_set' => 'utf8',
-//    'dbcollat' => 'utf8_general_ci',
-//    'swap_pre' => '',
-//    'encrypt' => FALSE,
-//    'compress' => FALSE,
-//    'stricton' => FALSE,
-//    'failover' => array(),
-//    'save_queries' => TRUE
+//	'dsn'	=> '',
+//	'hostname' => 'localhost:3306',
+//	'username' => 'root',
+//	'password' => '',
+//	'database' => 'local_beu',
+//	'dbdriver' => 'mysqli',
+//	'dbprefix' => '',
+//	'pconnect' => FALSE,
+//	'db_debug' => (ENVIRONMENT !== 'production'),
+//	'cache_on' => FALSE,
+//	'cachedir' => '',
+//	'char_set' => 'utf8',
+//	'dbcollat' => 'utf8_general_ci',
+//	'swap_pre' => '',
+//	'encrypt' => FALSE,
+//	'compress' => FALSE,
+//	'stricton' => FALSE,
+//	'failover' => array(),
+//	'save_queries' => TRUE
 //);
 $db['default'] = array(
     'dsn'	=> '',
-    'hostname' => 'localhost:3307',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'local_beu',
+    'hostname' => '112.78.2.149',
+    'username' => 'iame6c08_admin',
+    'password' => 'iame6c08_admin',
+    'database' => 'iame6c08_version1',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,

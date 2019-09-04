@@ -4,10 +4,9 @@
     <div class="container relative clearfix">
         <div class="title-holder">
             <div class="title-text">
-                <h1>Be Local</h1>
                 <ol class="breadcrumb">
                     <li>
-                        <?php echo $item->category_name; ?>
+                       <a href="<?php echo base_url() . 'eat'; ?>"> <?php echo $item->category_name; ?> </a>
                     </li>
                     <li class="active">
                         <?php echo $item->title; ?>
@@ -20,7 +19,9 @@
 
 
 <!-- Portfolio Single -->
-<section class="section-wrap-mp portfolio-single">
+<section class="portfolio-single">
+
+    <h1 class="text-center" style="padding: 20px 0;"> <?php echo $item->title; ?> </h1>
     <div class="container">
         <div class="row">
 
@@ -64,13 +65,13 @@
                         <div class="work-item <?php echo $item->slug; ?>">
                             <div class="work-container">
                                 <div class="work-img">
-                                    <a href="<?php echo base_url() . 'belocal/post/' . $item->slug; ?>">
+                                    <a href="<?php echo base_url() . 'eat/post/' . $item->slug; ?>">
                                         <img src="<?php echo base_url() . 'assets/img/' . $item->img; ?>" alt="">
                                     </a>
                                 </div>
                                 <div class="work-description">
                                     <h3>
-                                        <a href="<?php echo base_url() . 'belocal/post/' . $item->slug; ?>"><?php echo $item->title; ?></a>
+                                        <a href="<?php echo base_url() . 'eat/post/' . $item->slug; ?>"><?php echo $item->title; ?></a>
                                     </h3>
                                 </div>
                             </div>

@@ -1,0 +1,83 @@
+
+
+Địa chỉ IP
+
+Link quản trị
+
+Tài khoản
+
+Mật khẩu
+
+: 112.78.2.149
+
+: http://iamsaigon.vn:2082/
+
+: iame6c08
+
+: LA9IE6ZNa1@!A
+
+Thông tin kết nối FTP
+
+Máy chủ kết nối
+
+Tài khoản
+
+Mật khẩu
+
+: ftp.iamsaigon.vn hoặc 112.78.2.149
+
+: iame6c08
+
+: LA9IE6ZNa1@!A
+
+Thông tin quản trị Email (Kèm theo dịch vụ Web Hosting)
+
+Link quản trị
+
+Tài khoản
+
+Mật khẩu
+
+Webmail
+
+: https://cloudmail.emailserver.vn/admin/
+
+: admin@iamsaigon.vn
+
+: LA9IE6ZNa1@!A
+
+: https://cloudmail.emailserver.vn/webmail/
+
+*Hướng dẫn sử dụng:* Quý khách tham khảo bài viết *Dịch vụ Web Hosting dành
+cho người mới bắt đầu
+<http://wiki.matbao.net/Dich-vu-Web-Hosting-danh-cho-nguoi-moi-bat-dau.ashx>*
+để thực hiện cấu hình DNS cho tên miền. Ngoài ra *Trang Thư Viện Kỹ Thuật
+<https://www.matbao.net/Ho-tro/Ho-tro-ky-thuat.aspx>* sẽ cung cấp đầy đủ
+kiến thức, thông tin để Quý khách có thể dễ dàng điều khiển dịch vụ và
+nhanh chóng giải quyết một số vấn đề kỹ thuật mà Quý khách cần.
+
+Quản lý tài khoản tại Mắt Bão
+[image: arrow down]
+
+Trang quản trị tài khoản <https://id.matbao.net> sẽ cung cấp cho quý
+khách những thông tin chung, bao gồm thông tin cá nhân, thông tin các dịch
+vụ đã đăng ký. Ngoài ra, quý khách có thể gửi yêu cầu hỗ trợ từ Mắt
+Bão ngay tại trang này.
+
+Username
+
+Password
+
+: MB350515
+
+: Vì lý do bảo mật, mật khẩu sẽ không hiển thị tại đây.
+
+Đăng Nhập <https://id.matbao.net/login.aspx?>
+
+Đăng nhập tài khoản bằng số điện thoại.
+
+Nhận thông báo dịch vụ sắp hết hạn bằng tin nhắn (SMS) miễn phí.
+
+Đăng Ký ngay <https://id.matbao.net/Profile.aspx#loginphone>
+
+Nếu chưa có mật khẩu hoặ

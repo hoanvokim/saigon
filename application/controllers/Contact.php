@@ -19,7 +19,6 @@ class Contact extends CI_Controller
     public function index()
     {
         $data['active_tab'] = 'contact';
-
         if ($this->input->post('btn_send')) {
 
             $contact['protocol'] = $this->config->item('protocol');

@@ -10,9 +10,9 @@
 	<meta name="description" content="">
 
 	<!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-    <!-- Css -->
+	<!-- Css -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/magnific-popup.css"/>
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/font-icons.css"/>
@@ -54,14 +54,25 @@
 			<h3>Navigation</h3>
 
 			<ul class="header-nav__list">
-                <li <?php if($active_tab=='hello') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Xin Chào">"Xin Chào"</a></li>
-                <li <?php if ($active_tab == 'rooms') {
-                    echo 'class="current"';
-                } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Your home's style">Your
-                        home</a></li>
-				<li <?php if($active_tab=='facilities') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Full facilities">Full facilities</a></li>
-				<li <?php if($active_tab=='belocal') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'belocal'; ?>" title="Be local">Be local</a></li>
-				<li <?php if($active_tab=='contact') { echo 'class="current"'; } ?> ><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="contact">Get in touch</a></li>
+				<li <?php if ($active_tab == 'home') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url(); ?>" style="font-size: 10px">Homepage</a></li>
+				<li <?php if ($active_tab == 'hello') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'hello'; ?>" title="Chào">"Chào"</a></li>
+				<li <?php if ($active_tab == 'rooms') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'rooms'; ?>" title="Stay">Stay</a></li>
+				<li <?php if ($active_tab == 'eat') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'eat'; ?>" title="Eat">Eat</a></li>
+
+				<li <?php if ($active_tab == 'facilities') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'facilities'; ?>" title="Love">Love</a></li>
+				<li <?php if ($active_tab == 'contact') {
+					echo 'class="current"';
+				} ?> ><a class="smoothscroll" href="<?php echo base_url() . 'contact'; ?>" title="Book">Book</a></li>
 			</ul>
 
 			<ul class="header-nav__social">
