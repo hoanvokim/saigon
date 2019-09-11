@@ -26,9 +26,9 @@
                             ?>
                             <div class="<?php
                             if (strpos($item->url, 'youtube') !== false) {
-                                echo 'col-xs-6';
+                                echo 'col-xs-12';
                             } else {
-                                echo 'col-xs-3';
+                                echo 'col-xs-6';
                             }
                             ?>  activities-board-item">
                                 <div class="work-container">

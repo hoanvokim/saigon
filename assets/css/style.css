@@ -4617,10 +4617,12 @@ p.footer-address {
 
 .activities-board-description h3 {
     font-size: 14px !important;
+    padding-left: 5px;
 }
 
 .activities-board-description p {
     font-size: 10px !important;
+    padding-left: 5px;
 }
 
 

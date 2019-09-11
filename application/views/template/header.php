@@ -75,13 +75,16 @@
 
 			<ul class="header-nav__social">
 				<li>
-					<a href="https://www.facebook.com/iamsaigon.vn"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.facebook.com/iamsaigon.vn/"><i class="fa fa-facebook"></i></a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/iamsaigon.vn"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.instagram.com/iamsaigon.vn/"><i class="fa fa-instagram"></i></a>
 				</li>
 				<li>
-					<a href="#"><i class="fa fa-pinterest"></i></a>
+					<a href="https://goo.gl/maps/C2M3yFfQYsZ29oYa6"><i class="fa fa-google-plus"></i></a>
+				</li>
+				<li>
+					<a href="https://www.tripadvisor.com/Hotel_Review-g293925-d12955537-Reviews-Iamsaigon-Ho_Chi_Minh_City.html"><i class="fa fa-tripadvisor"></i></a>
 				</li>
 			</ul>
 
