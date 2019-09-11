@@ -26,7 +26,7 @@
 				if (isset($items) && ($items != 'Empty')) {
 					foreach ($items as $item) {
 						?>
-						<div class="col-xs-3 work-item <?php echo $item->slug; ?>">
+						<div class="col-xs-4 work-item <?php echo $item->slug; ?>">
 							<div class="work-container">
 								<div class="work-img">
 									<a href="<?php echo base_url() . 'eat/post/' . $item->slug; ?>">

@@ -20,11 +20,6 @@
 		initOnepagenav();
 		initPiechart();
 
-		if($('.vimeo-wrapper').length){
-			$('.footer').css({"margin-top": $(".vimeo-wrapper").height()});
-		}else{
-			// alert("Div1 does not exists");
-		}
 
 	});
 

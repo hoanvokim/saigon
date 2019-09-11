@@ -4761,6 +4761,9 @@ p.footer-address {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .section-wrap {
+        padding: 11px 0 !important;
+    }
 }
 
 /*
