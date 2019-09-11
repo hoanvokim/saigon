@@ -4,6 +4,7 @@
     <div class="container relative clearfix">
         <div class="title-holder">
             <div class="title-text">
+                <h1> Eat </h1>
                 <ol class="breadcrumb">
                     <li>
                        <a href="<?php echo base_url() . 'eat'; ?>"> <?php echo $item->category_name; ?> </a>

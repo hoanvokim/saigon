@@ -67,8 +67,8 @@
 							<a href="#">Towels</a>
 						</div>
 					</div>
-					<br/>
-					<br/>
+                    <br/>
+                    <br/>
 					<div class="entry-share clearfix">
 						<h6>Share:</h6>
 						<div class="socials">

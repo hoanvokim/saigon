@@ -18,7 +18,7 @@
 	</div>
 </section>
 
-<section class="mt-lrg-100">
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="works-grid titles wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">

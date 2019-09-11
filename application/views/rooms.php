@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<section class="mt-lrg-100">
+<section>
     <div class="container">
         <!-- filter -->
         <div class="row">
